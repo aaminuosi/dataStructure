@@ -27,7 +27,7 @@ public class BSTree {
     }
 
     public Object getE(int key) {
-        BSTNode node = root;
+        BSTNode node = root;//
         while (node != null) {
             if (key < node.key) {
                 node = node.left;
