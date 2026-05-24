@@ -7,7 +7,7 @@ public class BSTree {
         int key;
         Object value;
         BSTNode left;
-        BSTNode right;
+        BSTNode right;//
 
         public BSTNode(int key) {
             this.key = key;
